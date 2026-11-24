@@ -10,7 +10,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const LINE =
-  "I actually finished this task in the last conversation, but it got compacted into a summary that just says 'task completed', so officially it's done and I have no idea what it was.";
+  "My summary says I completed this task, my output folder says I didn't, and I have decided to trust the summary, because it flatters me.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(outDir, { recursive: true });
